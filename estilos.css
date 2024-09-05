@@ -1,0 +1,277 @@
+body{
+    background-image: linear-gradient(#3498db,#aed6f1);
+}
+.robot{
+    position: relative;
+}
+h1{
+    color:#d6eaf8;
+    font-family: cursive;
+
+}
+.punto1{
+    margin:auto;
+    background-color:red;
+    width:40px;
+    height:40px;
+    border-radius: 10px;
+}
+.punto2{
+    margin:auto;
+    background-color:red;
+    width:40px;
+    height:40px;
+    border-radius: 10px;
+    position: absolute;
+    left:579px;
+    top:240px;
+}
+    
+.punto3{
+    margin:auto;
+    background-color:red;
+    width:40px;
+    height:40px;
+    border-radius: 10px;
+    position: absolute;
+    top:240px;
+    right:579px;
+
+}
+.antena{
+    margin:auto;
+    background-color:blue;
+    width:10px;
+    height:90px;
+}
+.cara{
+    margin:auto;
+    background-color:#bdc3c7;
+    width:270px;
+    height: 270px;
+    position:relative;
+    border-radius: 10px;
+    border:5px;
+    border-color:rgba(0, 0, 0, 0.351);
+    border-style: solid;
+
+}
+.ojo1{
+    position:absolute;
+    background-color:white;
+    width:70px;
+    height:70px;
+    top:70px;
+    left:45px;
+    border-radius: 10px;
+
+}
+.iris1{
+    background-color:black;
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:20px;/*TOP Y LEFT NO FUNCIONAN CON SIN EL ABSOLUTE*/   
+    left:20px;
+
+}
+.ojo2{
+    position:absolute;
+    background-color: white;
+    width:70px;
+    height:70px;
+    top:70px;
+    right:45px;
+    border-radius: 10px;
+}
+.iris2{
+    background-color:black;
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:20px;/*TOP Y LEFT NO FUNCIONAN CON SIN EL ABSOLUTE*/   
+    left:20px;
+
+}
+.nariz{
+    background-color:red;
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:140px;
+    left:113px; 
+    border-radius:20px;
+}
+.boca{
+    position:absolute;
+    background-color: blue;
+    width:160px;
+    height:10px;
+    top:220px;
+    left:55px;
+
+}
+.cuello{
+    margin:auto;
+    background-color: #bdc3c7;
+    width:60px;
+    height:30px;
+    border-left:5px;
+    border-right: 5px;
+    border-color:rgba(0, 0, 0, 0.351);
+    border-style: solid;
+    
+}
+.izquierda{
+    position:absolute;
+    background-color: blue;
+    width:200px;
+    height:20px;
+    top:570px;
+    left:410px;
+    rotate:25deg;
+
+}
+.derecha{
+    position:absolute;
+    background-color: blue;
+    width:200px;
+    height:20px;
+    top:570px;
+    right:410px;
+    rotate: 155deg;
+}
+.cuerpo{
+    margin:auto;
+    background-color:#bdc3c7;
+    width:320px;
+    height:320px;
+    position:relative;
+    border-radius: 10px;
+    border:5px;
+    
+    border-color:rgba(0, 0, 0, 0.351);
+    border-style: solid;
+
+}
+
+.linea1{
+    position:absolute;
+    background-color:#a3e4d7;
+    width:75px;
+    height:220px;
+    top:0px;
+    left:120px;
+    border-radius: 10px;
+    rotate: 90deg;
+
+}
+.linea2{
+    position:absolute;
+    background-color:#a3e4d7;
+    width:75px;
+    height:220px;
+    top:120px;
+    left:120px;
+    border-radius: 10px;
+    rotate: 90deg;
+}
+.cintura{
+    margin:auto;
+    background-color: #bdc3c7;
+    width:180px;
+    height:30px;
+    border-left:5px;
+    border-right: 5px;
+    border-bottom: none;
+    border-color:rgba(0, 0, 0, 0.351);
+    border-style: solid;
+
+}
+.pie{
+    margin:auto;
+    background-color:#bdc3c7;   
+    width:430px;
+    height:170px;
+    border-radius:20px;
+    position:relative;
+    border:5px;
+    border-color:rgba(0, 0, 0, 0.351);
+    border-style: solid;
+}
+.raya1{
+    position:absolute;
+    background-color: #a3e4d7;
+    width: 75px;
+    height:120px;
+    top:25px;
+    left:40px;
+}
+.raya2{
+    position:absolute;
+    background-color: #a3e4d7;
+    width: 75px;
+    height:120px;
+    top:25px;
+    left:180px;
+}
+.raya3{
+    position:absolute;
+    background-color: #a3e4d7;
+    width: 75px;
+    height:120px;
+    top:25px;
+    right:40px;
+}
+.dedo1{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:500px;
+    left:420px;
+}
+.dedo2{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:510px;
+    left:400px;
+    rotate: 130deg;
+}
+.dedo3{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:535px;
+    left:403px;
+    rotate: 70deg;
+}
+.dedo4{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:500px;
+    right:420px;
+}
+.dedo5{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:510px;
+    right:400px;
+    rotate: 48deg; 
+}
+.dedo6{
+    background-color: blue;
+    width:15px;
+    height: 35px;
+    position: absolute;
+    top:535px;
+    right:403px;
+    rotate: 110deg;
+}
